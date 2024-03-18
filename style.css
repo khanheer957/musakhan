@@ -1,0 +1,46 @@
+.container {
+    border: 2px solid black; 
+    background-color: aqua; 
+    height: 1000px; }
+    box{
+     height: 150px;
+     width: 150px;  
+     border: 2px solid blue; 
+     display:inline-block;
+     margin: 4px;
+    }
+    .box{
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+    }
+    
+    #box3{
+        position: relative;
+        top: 34px;
+        left: 34px;
+        bottom: 8px;
+        right: 3px;
+    }
+    #box2{
+        position: absolute;
+        top: 10px;
+        left: 2px;
+        bottom: 5px;
+        right: 6px;
+    }
+    #box1{
+    position: fixed;
+    top: 3px;
+    left: 4px;
+    bottom: 6px;
+    right: 2px;
+    }
+    #box4{
+        position: sticky;
+        top: 4px;
+        left: 6px;
+        bottom: 8px;
+        right:  5px;
+    }
